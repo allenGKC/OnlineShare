@@ -53,7 +53,7 @@ git clone https://github.com/allenGKC/OnlineShare.git
 <strong>写完ppt，别忘了切换到根目录下，提交代码哦~</strong>
 
 ## 有好的建议？
-如果你对该项目任何修改建议，请RTX 龚楷椿，我会及时修改的，谢谢！
+如果你对该项目任何修改建议，请提issue给我，我会及时修改的，谢谢！
 
 ## 参考资料
 1. [Markdown 语法说明](http://www.appinn.com/markdown/) 

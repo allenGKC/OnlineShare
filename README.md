@@ -21,12 +21,18 @@ git clone https://github.com/allenGKC/OnlineShare.git
 
 ```
 
-2.cd online-share/
+2.cd OnlineShare/
 
-3.请确保安装了cnpm,执行cnpm install，如果cnpm install出错，请重试，有可能是网络问题。
+## FAST USAGE
+为了让大家更加便捷的操作前端在线分享平台，专注于写markdown，写了一个自动化脚本将繁琐的过程用shell脚本的方式一键运行。
+<strong>一定确保本地安装好[jq](https://stedolan.github.io/jq/)和[cnpm](https://npm.taobao.org/)这是运行脚本成功的先决条件！具体安装方法请参见[jq官网](https://stedolan.github.io/jq/download/)和[淘宝npm镜像](https://npm.taobao.org/)</strong>
+> 1. Windows平台请打开 Git Bash 终端（非cmd.exe）, Mac平台请打开 terminal.app / iterm2.app 终端
+2. chmod +x automake.sh
+3. ./automake.sh
+4. 完成后就可以编写自己的markdown文件了
 
 
-## USAGE
+## COMMON USAGE
 
 1. Windows执行npm start -- --port=8001<br>
    Mac可以直接执行npm start<br>
@@ -50,6 +56,7 @@ git clone https://github.com/allenGKC/OnlineShare.git
 	}
 
 ```
+
 <strong>写完ppt，别忘了切换到根目录下，提交代码哦~</strong>
 
 ## 有好的建议？

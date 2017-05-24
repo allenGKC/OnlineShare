@@ -23,7 +23,7 @@ git clone https://github.com/allenGKC/OnlineShare.git
 
 2.cd online-share/
 
-3.执行npm install，如果npm install出错，请重试，有可能是网络问题。
+3.请确保安装了cnpm,执行cnpm install，如果cnpm install出错，请重试，有可能是网络问题。
 
 
 ## USAGE

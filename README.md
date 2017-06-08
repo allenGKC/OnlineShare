@@ -21,7 +21,9 @@ git clone https://github.com/allenGKC/OnlineShare.git
 
 ```
 
-2.cd OnlineShare/
+2.git checkout develop
+
+3.cd OnlineShare/
 
 ## FAST USAGE
 为了让大家更加便捷的操作前端在线分享平台，专注于写markdown，写了一个自动化脚本将繁琐的过程用shell脚本的方式一键运行。

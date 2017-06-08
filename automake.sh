@@ -25,7 +25,7 @@ function MakeOwnFolder() {
 function GetInfo() {
     echo "请输入你的中文姓名：如龚楷椿(必填)"
     read author
-    echo "请输入你的github主页：如https://github.com/allenGKC(选填)"
+    echo "请输入你的github主页："
     read github_homepage
     echo "请输入你的页面title：如PS分享(必填)"
     read title

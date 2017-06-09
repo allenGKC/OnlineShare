@@ -37,14 +37,15 @@ git clone https://github.com/allenGKC/OnlineShare.git
 
 ## COMMON USAGE
 
-1. Windows执行npm start -- --port=8001<br>
+1. npm install(如果装了cnpm，可以cnpm install)
+2. Windows执行npm start -- --port=8001<br>
    Mac可以直接执行npm start<br>
    如果遇到端口被占用，请切换端口.
-2. cd online-share/markdown/ 
-3. 新建自己的分享文件夹，注意不要使用中文
-4. 在该文件夹下新建自己的md文件和asset文件夹，asset文件夹用于存放图片和其他相关资源
-5. 默认分割ppt页面请使用 ----
-6. 修改menu.json，请在后面添加自己的信息，homepage可以选填，刷新即可查看编辑效果
+3. cd online-share/markdown/ 
+4. 新建自己的分享文件夹，注意不要使用中文
+5. 在该文件夹下新建自己的md文件和asset文件夹，asset文件夹用于存放图片和其他相关资源
+6. 默认分割ppt页面请使用 ----
+7. 修改menu.json，请在后面添加自己的信息，homepage可以选填，刷新即可查看编辑效果
 
 ```
 	{

@@ -35,6 +35,7 @@ git clone https://github.com/allenGKC/OnlineShare.git
 2. node automake.js
 3. 完成后就可以编写自己的markdown文件了
 
+![guide](guide.gif)
 
 ## COMMON USAGE
 

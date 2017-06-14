@@ -11,7 +11,8 @@ const getQueryObj = () => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-  let node = document.getElementById('stage');
+  //let node = document.getElementById('stage');
+  let node = document.getElementsByClassName('stage')[0];
   let queryObj = getQueryObj();
   let path = queryObj['path'];
   document.title = queryObj['title'];

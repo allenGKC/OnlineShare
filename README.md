@@ -4,7 +4,7 @@
 OnlineShare
 
 ## VERSION
-1.0.0-beta
+2.0.0
 
 ## DESCRIPTION
 该平台旨在统一管理前端分享，让大家爱上分享，方便所有同学查看。
@@ -25,27 +25,27 @@ git clone https://github.com/allenGKC/OnlineShare.git
 
 3.cd OnlineShare/
 
+4.npm install
+
 ## FAST USAGE
-为了让大家更加便捷的操作前端在线分享平台，专注于写markdown，写了一个自动化脚本将繁琐的过程用shell脚本的方式一键运行。
-<strong>一定确保本地安装好[jq](https://stedolan.github.io/jq/)和[cnpm](https://npm.taobao.org/)这是运行脚本成功的先决条件！具体安装方法请参见[jq官网](https://stedolan.github.io/jq/download/)和[淘宝npm镜像](https://npm.taobao.org/)</strong>
+
+为了让大家更加便捷的操作前端在线分享平台，专注于写markdown，写了一个自动化脚本将繁琐的过程用node.js脚本的方式一键运行。
 
 1. Windows平台请打开 Git Bash 终端（非cmd.exe）, Mac平台请打开 terminal.app / iterm2.app 终端
-2. chmod +x automake.sh
-3. ./automake.sh
-4. 完成后就可以编写自己的markdown文件了
+2. node automake.js
+3. 完成后就可以编写自己的markdown文件了
 
 
 ## COMMON USAGE
 
-1. npm install(如果装了cnpm，可以cnpm install)
-2. Windows执行npm start -- --port=8001<br>
+1. Windows执行npm start -- --port=8001<br>
    Mac可以直接执行npm start<br>
    如果遇到端口被占用，请切换端口.
-3. cd online-share/markdown/ 
-4. 新建自己的分享文件夹，注意不要使用中文
-5. 在该文件夹下新建自己的md文件和asset文件夹，asset文件夹用于存放图片和其他相关资源
-6. 默认分割ppt页面请使用 ----
-7. 修改menu.json，请在后面添加自己的信息，homepage可以选填，刷新即可查看编辑效果
+2. cd online-share/markdown/ 
+3. 新建自己的分享文件夹，注意不要使用中文
+4. 在该文件夹下新建自己的md文件和asset文件夹，asset文件夹用于存放图片和其他相关资源
+5. 默认分割ppt页面请使用 ----
+6. 修改menu.json，请在后面添加自己的信息，homepage可以选填，刷新即可查看编辑效果
 
 ```
 	{

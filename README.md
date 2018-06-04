@@ -10,7 +10,7 @@ OnlineShare
 该平台旨在统一管理前端分享，让大家爱上分享，方便所有同学查看。
 
 ## AUTHOR
-Allen.Gong<cnyzgkc@163.com>
+Allen.Gong
 
 ## INSTALL
 

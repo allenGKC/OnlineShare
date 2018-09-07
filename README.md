@@ -50,7 +50,7 @@ git clone https://github.com/allenGKC/OnlineShare.git
 	{
 	  "list": [
 	    {
-	      "author": "龚楷椿",
+	      "author": "xxx",
 	      "homepage": "https://github.com/allenGKC",
 	      "path": "docker-first-install/docker-first-install.md",
 	      "title": "Docker入坑指南"

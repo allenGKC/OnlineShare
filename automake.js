@@ -10,7 +10,7 @@ var questions = [
     {
         type: 'input',
         name: 'author',
-        message: '请输入你的中文姓名：如龚楷椿(必填)'
+        message: '请输入你的中文姓名：如王小明(必填)'
     },
     {
         type: 'input',
